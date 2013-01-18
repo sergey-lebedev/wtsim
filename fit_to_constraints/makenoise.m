@@ -1,0 +1,9 @@
+function out = makenoise(n)
+out = 0.1*randn(n);
+out = cumsum(out);
+out = out-polyval(polyfit(reshape(1:length(out), n), out, 1),reshape(1:length(out), n));
+coe = linspace(-1,1,length(out)).^2-1;
+coe = exp(1e1*coe);
+coe = reshape(coe, n);
+out = real(ifft(fft(out).*coe));
+out = out/max(out)/1e3;

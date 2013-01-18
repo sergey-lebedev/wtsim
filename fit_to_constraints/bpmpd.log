@@ -1,0 +1,68 @@
+Parameter file not found: bpmpd.par
+Default optimization parameters will be used
+ 
+Process: presolv
+COLSNG:    2 columns,    2 rows removed
+Presolv done...
+ 
+Process: scaling
+Pass 0. Average def. 1.285058056e+00
+Pass 1. Average def. 1.242785255e+00
+Pass 2. Average def. 1.221155467e+00
+Pass 3. Average def. 1.224459336e+00
+Scaling done...
+ 
+Process: aggregator
+      0 rows     dependent
+   1996 row/cols eliminated,    9083 fill-in created.
+    614 nonzeros eliminated
+Aggregator done...
+ 
+Time for presolv, scaling and aggregator:     0.01 sec.
+Number of rows       :     997
+Number of columns    :    1759
+Free variables       :     999
+No. of A nonzeros    :    6980
+No. of Q nonzeros    :       0
+Largest column count :       7
+Obj. scaled 2.14e-01
+ 
+Number of dense rows       :     0    0.0%
+Largest sparse col. length :     7    0.7%
+Problem has no dense columns
+Analysing quadratic objective
+Number of independent bloks:     0
+Largest increased density  :     0
+ 
+Ordering: Nested dissection
+Building ordering    list    time:     0.00 sec
+Ordering on Quadratic Objective   
+Building ordering    list    time:     0.00 sec
+Symbolic factorisation       time:     0.00 sec
+Sub-diagonal nonzeros in aat     :     3137
+Sub-diagonal nonzeros in L       :     4680
+Total symbolic phase         time:     0.00 sec
+NONZEROS         :       11660
+OPERATIONS       :       34268
+Supernodes       :         149              0
+Supernodal cols. :         598              0
+Dense window     :           3
+Centrality correction Power: 1
+Iterative refinement  Power: 3
+FIRSTFACTOR TIME :        0.01 sec
+ 
+It-PC   P.Inf   D.Inf  U.Inf   Actions           P.Obj           D.Obj  Barpar
+------------------------------------------------------------------------------
+ 0-00   7e-02   2e-04  1e-01  0   0   0   1.9001207e-03  -8.4673416e-02  0e+00
+ 1-11   8e-16   5e-09  1e-17  0   0   0   1.1864121e-03  -9.1351062e-03  4e-06
+ 2-11   3e-15   5e-09  1e-17  0   0   0   7.7404189e-04   2.5820851e-04  3e-07
+ 3-11   1e-15   5e-10  1e-17  0   0   0   7.3382834e-04   7.1527980e-04  7e-09
+ 4-11   3e-16   4e-12  1e-17  0   0   0   7.3329796e-04   7.3312319e-04  1e-11
+ 5-11   9e-17   2e-15  1e-17  0   0   0   7.3329765e-04   7.3329747e-04  0e+00
+ 
+Stopping Criteria:Small infeasibility and duality gap
+ABSOLUTE infeas.   Primal  :  9.414e-17    Dual         :   2.129065170e-15
+PRIMAL :  Relative infeas. :  8.740e-17    Objective    :   7.332976476e-04
+DUAL   :  Relative infeas. :  2.129e-15    Objective    :   7.332974675e-04
+Complementarity gap        :  1.961e-14    Duality gap  :  -1.799793397e-10
+Solver time        0.01 sec.
