@@ -97,8 +97,8 @@ REFERENCES:
    7. C. Mészáros. BPMPD Home Page
    8. GAlib A C++ Library of Genetic Algorithm Components
    9. А.Я. Коган, С.В. Петуховский. Расчет оптимальных сдвигов при выправке криволинейных участков пути. Вестник ВНИИЖТ, 2002, №5
-  10. А.Я. Коган, С.В. Петуховский. К вопросу о расчете положения пути в плане по стрелам несимметричной измерительной хорды. Вестник ВНИИЖТ, 2002, №1
-  11. Steven van Dijc, Using Genetic Algorithms for Solving Hard Problems in GIS
-  12. Raphael Linus Levien, From Spiral to Spline: Optimal Techniques in Interactive Curve Design
-  13. Michael Downes. Short Math Guide for LATEX
-  14. В.М. Тихомиров. Рассказы о максимумах и минимумах. Москва. Издательство МЦНМО. 2006. 
+   10. А.Я. Коган, С.В. Петуховский. К вопросу о расчете положения пути в плане по стрелам несимметричной измерительной хорды. Вестник ВНИИЖТ, 2002, №1
+   11. Steven van Dijc, Using Genetic Algorithms for Solving Hard Problems in GIS
+   12. Raphael Linus Levien, From Spiral to Spline: Optimal Techniques in Interactive Curve Design
+   13. Michael Downes. Short Math Guide for LATEX
+   14. В.М. Тихомиров. Рассказы о максимумах и минимумах. Москва. Издательство МЦНМО. 2006. 
